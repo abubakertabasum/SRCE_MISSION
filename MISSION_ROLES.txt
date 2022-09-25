@@ -1,0 +1,202 @@
+CREATE ROLE VALIDER_MISSION_ROLE;
+CREATE ROLE SAISIE_MISSION_ROLE;
+CREATE ROLE ANNULER_MISSION_ROLE;
+CREATE ROLE CLOTURER_MISSION_ROLE;
+CREATE ROLE CONSULTATION_MISSION_ROLE;
+CREATE ROLE PIECE_DEPENSE_ROLE;
+CREATE ROLE EDITION_ETAT_ROLE;
+CREATE ROLE DEV_MISSION_ROLE;
+
+VALIDER_MISSION_ROLE
+grant select on gm_accompagnant to VALIDER_MISSION_ROLE;
+grant select on gm_destination to VALIDER_MISSION_ROLE;
+grant select on gm_etat to VALIDER_MISSION_ROLE;
+grant select on gm_fonction to VALIDER_MISSION_ROLE;
+grant select on gm_lieu_affectation to VALIDER_MISSION_ROLE;
+grant select, update on gm_mission to VALIDER_MISSION_ROLE;
+grant select on signal to VALIDER_MISSION_ROLE;
+grant select on agence to VALIDER_MISSION_ROLE;
+grant select on poste to VALIDER_MISSION_ROLE;
+grant select on gm_piece_depense to VALIDER_MISSION_ROLE;
+grant select on gm_vehicule_mission to VALIDER_MISSION_ROLE;
+grant select on gm_categorie to VALIDER_MISSION_ROLE;
+grant select on gm_directeur_general to VALIDER_MISSION_ROLE;
+grant select on gm_incidence_financiere to VALIDER_MISSION_ROLE;
+grant select on gm_chauffeur to VALIDER_MISSION_ROLE;
+grant select on gm_chauffeur_mission to VALIDER_MISSION_ROLE;
+
+SAISIE_MISSION_ROLE
+grant select, insert, update, delete on gm_accompagnant to SAISIE_MISSION_ROLE;
+grant select, insert, update on gm_destination to SAISIE_MISSION_ROLE;
+grant select on gm_etat to SAISIE_MISSION_ROLE;
+grant select, insert, update on gm_fonction to SAISIE_MISSION_ROLE;
+grant select, insert, update on gm_lieu_affectation to SAISIE_MISSION_ROLE;
+grant select,insert, update on gm_mission to SAISIE_MISSION_ROLE;
+grant select on signal to SAISIE_MISSION_ROLE;
+grant select on agence to SAISIE_MISSION_ROLE;
+grant select on poste to SAISIE_MISSION_ROLE;
+grant select on gm_piece_depense to SAISIE_MISSION_ROLE;
+grant select, insert, delete on gm_vehicule to SAISIE_MISSION_ROLE;
+grant select on gm_signataire to SAISIE_MISSION_ROLE;
+grant select, insert, update on gm_vehicule_mission to SAISIE_MISSION_ROLE;
+grant select on gm_categorie to SAISIE_MISSION_ROLE;
+grant select on gm_directeur_general to SAISIE_MISSION_ROLE;
+grant select, insert, update on gm_incidence_financiere to SAISIE_MISSION_ROLE;
+grant select on gm_chauffeur to SAISIE_MISSION_ROLE;
+grant select, insert, update on gm_chauffeur_mission to SAISIE_MISSION_ROLE;
+grant select, insert, update, delete on gm_chauffeur to SAISIE_MISSION_ROLE;
+
+ANNULER_MISSION_ROLE
+grant select on gm_accompagnant to ANNULER_MISSION_ROLE;
+grant select on gm_destination to ANNULER_MISSION_ROLE;
+grant select on gm_etat to ANNULER_MISSION_ROLE;
+grant select on gm_fonction to ANNULER_MISSION_ROLE;
+grant select on gm_lieu_affectation to ANNULER_MISSION_ROLE;
+grant select, update on gm_mission to ANNULER_MISSION_ROLE;
+grant select on signal to ANNULER_MISSION_ROLE;
+grant select on agence to ANNULER_MISSION_ROLE;
+grant select on poste to ANNULER_MISSION_ROLE;
+grant select on gm_piece_depense to ANNULER_MISSION_ROLE;
+grant select on gm_vehicule_mission to ANNULER_MISSION_ROLE;
+grant select on gm_categorie to ANNULER_MISSION_ROLE;
+grant select on gm_directeur_general to ANNULER_MISSION_ROLE;
+grant select on gm_incidence_financiere to ANNULER_MISSION_ROLE;
+grant select on gm_chauffeur to ANNULER_MISSION_ROLE;
+grant select on gm_chauffeur_mission to ANNULER_MISSION_ROLE;
+
+
+CLOTURER_MISSION_ROLE
+grant select on gm_accompagnant to CLOTURER_MISSION_ROLE;
+grant select on gm_destination to CLOTURER_MISSION_ROLE;
+grant select on gm_etat to CLOTURER_MISSION_ROLE;
+grant select on gm_fonction to CLOTURER_MISSION_ROLE;
+grant select on gm_lieu_affectation to CLOTURER_MISSION_ROLE;
+grant select, update on gm_mission to CLOTURER_MISSION_ROLE;
+grant select on signal to CLOTURER_MISSION_ROLE;
+grant select on agence to CLOTURER_MISSION_ROLE;
+grant select on poste to CLOTURER_MISSION_ROLE;
+grant select on gm_piece_depense to CLOTURER_MISSION_ROLE;
+grant select, insert, update on gm_vehicule_mission to CLOTURER_MISSION_ROLE;
+grant select on gm_categorie to CLOTURER_MISSION_ROLE;
+grant select on gm_directeur_general to CLOTURER_MISSION_ROLE;
+grant select on gm_incidence_financiere to CLOTURER_MISSION_ROLE;
+grant select on gm_chauffeur to CLOTURER_MISSION_ROLE;
+grant select on gm_chauffeur_mission to CLOTURER_MISSION_ROLE;
+
+CONSULTATION_MISSION_ROLE
+grant select on gm_accompagnant to CONSULTATION_MISSION_ROLE;
+grant select on gm_destination to CONSULTATION_MISSION_ROLE;
+grant select on gm_etat to CONSULTATION_MISSION_ROLE;
+grant select on gm_fonction to CONSULTATION_MISSION_ROLE;
+grant select on gm_lieu_affectation to CONSULTATION_MISSION_ROLE;
+grant select on gm_mission to CONSULTATION_MISSION_ROLE;
+grant select on signal to CONSULTATION_MISSION_ROLE;
+grant select on agence to CONSULTATION_MISSION_ROLE;
+grant select on poste to CONSULTATION_MISSION_ROLE;
+grant select on gm_piece_depense to CONSULTATION_MISSION_ROLE;
+grant select on gm_compte to CONSULTATION_MISSION_ROLE;
+grant select on gm_directeur_general to CONSULTATION_MISSION_ROLE;
+grant select on gm_nombre to CONSULTATION_MISSION_ROLE;
+grant select on gm_signataire to CONSULTATION_MISSION_ROLE;
+grant select on gm_vehicule to CONSULTATION_MISSION_ROLE;
+grant select on gm_vehicule_mission to CONSULTATION_MISSION_ROLE;
+grant select on gm_categorie to CONSULTATION_MISSION_ROLE;
+grant select on gm_incidence_financiere to CONSULTATION_MISSION_ROLE;
+grant select on gm_chauffeur to CONSULTATION_MISSION_ROLE;
+grant select on gm_chauffeur_mission to CONSULTATION_MISSION_ROLE;
+
+
+PIECE_DEPENSE_ROLE
+grant select on gm_accompagnant to PIECE_DEPENSE_ROLE;
+grant select on gm_destination to PIECE_DEPENSE_ROLE;
+grant select on gm_etat to PIECE_DEPENSE_ROLE;
+grant select on gm_fonction to PIECE_DEPENSE_ROLE;
+grant select on gm_lieu_affectation to PIECE_DEPENSE_ROLE;
+grant select, update on gm_mission to PIECE_DEPENSE_ROLE;
+grant select on signal to PIECE_DEPENSE_ROLE;
+grant select on agence to PIECE_DEPENSE_ROLE;
+grant select on poste to PIECE_DEPENSE_ROLE;
+grant select, insert, delete on gm_piece_depense to PIECE_DEPENSE_ROLE;
+grant select on gm_vehicule_mission to PIECE_DEPENSE_ROLE;
+grant select on gm_categorie to PIECE_DEPENSE_ROLE;
+grant select on gm_directeur_general to PIECE_DEPENSE_ROLE;
+grant select on gm_compte to PIECE_DEPENSE_ROLE;
+grant select on gm_nombre to PIECE_DEPENSE_ROLE;
+grant  EXECUTE on conversion to PIECE_DEPENSE_ROLE;
+grant select on gm_incidence_financiere to PIECE_DEPENSE_ROLE;
+grant select on gm_chauffeur to PIECE_DEPENSE_ROLE;
+grant select on gm_chauffeur_mission to PIECE_DEPENSE_ROLE;
+
+
+EDITION_ETAT_ROLE
+grant select on gm_accompagnant to EDITION_ETAT_ROLE;
+grant select on gm_destination to EDITION_ETAT_ROLE;
+grant select on gm_etat to EDITION_ETAT_ROLE;
+grant select on gm_fonction to EDITION_ETAT_ROLE;
+grant select on gm_lieu_affectation to EDITION_ETAT_ROLE;
+grant select on gm_mission to EDITION_ETAT_ROLE;
+grant select on signal to EDITION_ETAT_ROLE;
+grant select on agence to EDITION_ETAT_ROLE;
+grant select on poste to EDITION_ETAT_ROLE;
+grant select, insert, delete on gm_piece_depense to EDITION_ETAT_ROLE;
+grant select on gm_edition to CONSULTATION_MISSION_ROLE;
+grant select on gm_piece_depense to EDITION_ETAT_ROLE;
+grant select on gm_vehicule_mission to EDITION_ETAT_ROLE;
+grant select on gm_categorie to EDITION_ETAT_ROLE;
+grant select on gm_directeur_general to EDITION_ETAT_ROLE;
+grant  EXECUTE on conversion to EDITION_ETAT_ROLE;
+grant select on gm_edition to EDITION_ETAT_ROLE;
+grant select on gm_incidence_financiere to EDITION_ETAT_ROLE;
+grant select on gm_chauffeur to EDITION_ETAT_ROLE;
+grant select on gm_chauffeur_mission to EDITION_ETAT_ROLE;
+
+DEV_MISSION_ROLE
+grant select, insert, update, delete on gm_accompagnant to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_destination to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_etat to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_fonction to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_lieu_affectation to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_mission to DEV_MISSION_ROLE;
+grant select, insert, update, delete on signal to DEV_MISSION_ROLE;
+grant select, insert, update, delete on agence to DEV_MISSION_ROLE;
+grant select, insert, update, delete on poste to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_piece_depense to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_compte to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_directeur_general to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_nombre to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_signataire to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_vehicule to DEV_MISSION_ROLE;
+grant select, insert, update, delete on gm_vehicule_mission to DEV_MISSION_ROLE;
+grant select on gm_vehicule_mission to DEV_MISSION_ROLE;
+grant select on gm_categorie to DEV_MISSION_ROLE;
+grant select on gm_directeur_general to DEV_MISSION_ROLE;
+grant  EXECUTE on conversion to PIECE_DEPENSE_ROLE;
+grant select, insert, update, delete on gm_incidence_financiere to PIECE_DEPENSE_ROLE;
+grant select, insert, update, delete on gm_chauffeur to PIECE_DEPENSE_ROLE;
+grant select, insert, update, delete on gm_chauffeur_mission to PIECE_DEPENSE_ROLE;
+
+
+grant select on signal to VALIDER_MISSION_ROLE;
+grant select on agence to VALIDER_MISSION_ROLE;
+grant select on poste to VALIDER_MISSION_ROLE;
+grant select on signal to SAISIE_MISSION_ROLE;
+grant select on agence to SAISIE_MISSION_ROLE;
+grant select on poste to SAISIE_MISSION_ROLE;
+grant select on signal to ANNULER_MISSION_ROLE;
+grant select on agence to ANNULER_MISSION_ROLE;
+grant select on poste to ANNULER_MISSION_ROLE;
+grant select on signal to CLOTURER_MISSION_ROLE;
+grant select on agence to CLOTURER_MISSION_ROLE;
+grant select on poste to CLOTURER_MISSION_ROLE;
+grant select on signal to CONSULTATION_MISSION_ROLE;
+grant select on agence to CONSULTATION_MISSION_ROLE;
+grant select on poste to CONSULTATION_MISSION_ROLE;
+grant select on signal to PIECE_DEPENSE_ROLE;
+grant select on agence to PIECE_DEPENSE_ROLE;
+grant select on poste to PIECE_DEPENSE_ROLE;
+grant select on signal to EDITION_ETAT_ROLE;
+grant select on agence to EDITION_ETAT_ROLE;
+grant select on poste to EDITION_ETAT_ROLE;
+grant select on signal to DEV_MISSION_ROLE;
+grant select on agence to DEV_MISSION_ROLE;
+grant select on poste to DEV_MISSION_ROLE;

@@ -1,0 +1,34 @@
+[07/19/06 11:59:47 GMT]::Client Status [ConnId=0, PID=2660]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  5DEF3B41 01:00002B41
+Module: C:\oracle\BIN\ifrd60.dll
+
+System Information:
+Operating System: Windows NT Version 5.1 Build 2600 Service Pack 2
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: ENREG_MISSION_EXT:DONNEES.CMDENREGISTRER
+Last Trigger: WHEN-BUTTON-PRESSED - (Error: Unhandled Exception)
+Msg: ORA-06503
+Last Builtin: GO_ITEM - (Successfully Completed)
+
+Registers:
+EAX:00000004
+EBX:0245E0B8
+ECX:00000009
+EDX:0245E0B8
+ESI:00ED2264
+EDI:00ED1B04
+CS:EIP:001B:5DEF3B41
+SS:ESP:0023:0012F834  EBP:02C2F570
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010293
+
+
+Call stack:
+Address   Frame
+5DEF3B41  02C2F570  iifini
+02C2F998  00ED1B44  0000:00000000 
+

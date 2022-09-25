@@ -1,0 +1,20 @@
+select * from gm_chauffeur_mission
+where CH_DATE_DEPART>=sysdate
+and MISSION_NUMERO# in
+(select Mission_Numero# from gm_mission
+ where Etat_Code#='A') ;
+	    
+select * from  gm_vehicule_mission
+where MISSION_NUMERO# in
+(select Mission_Numero# from gm_mission
+ where Etat_Code#='A') ;
+
+delete from gm_chauffeur_mission
+where MISSION_NUMERO# in
+(select Mission_Numero# from gm_mission
+ where Etat_Code#='A') ;
+	    
+delete from  gm_vehicule_mission
+where MISSION_NUMERO# in
+(select Mission_Numero# from gm_mission
+ where Etat_Code#='A') ;

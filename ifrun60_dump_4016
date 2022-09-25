@@ -1,0 +1,37 @@
+[08/04/06 13:01:21 GMT]::Client Status [ConnId=0, PID=4016]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  5EE8332C 01:0000232C
+Module: C:\oracle\BIN\UIW60.DLL
+
+System Information:
+Operating System: Windows NT Version 5.1 Build 2600 Service Pack 2
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: :.
+Last Trigger:  - (No error number)
+Last Builtin:  - (No error number)
+
+Registers:
+EAX:00000000
+EBX:00E66D58
+ECX:0012EB3C
+EDX:0000015C
+ESI:001E2B88
+EDI:00000000
+CS:EIP:001B:5EE8332C
+SS:ESP:0023:0012EA28  EBP:0012EB20
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010212
+
+
+Call stack:
+Address   Frame
+5EE8332C  0012EB20  suifnmg_Message
+5EEE2CFB  0012EDD0  uisxvc
+5EE99969  0012EDF4  uiezEnqueueResize
+5EE995AF  0012EFB0  uiezEnqueueResize
+5EE9A651  0012F088  uiezEnqueueNativeKbdEvent
+5EF051CC  0245864C  uiwsru
+

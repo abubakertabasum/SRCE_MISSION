@@ -1,0 +1,35 @@
+[06/30/06 18:19:48 GMT]::Client Status [ConnId=0, PID=3428]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  6139DBED 01:0009CBED
+Module: C:\oracle\BIN\ORA805.dll
+
+System Information:
+Operating System: Windows NT Version 5.1 Build 2600 Service Pack 2
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: SAISIE_PIECE_DEPENSE:DONNEES.CMDFERMER
+Last Trigger: WHEN-BUTTON-PRESSED - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: EXIT_FORM - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:0012F8EC
+ECX:0000000C
+EDX:00004A9E
+ESI:00EC4590
+EDI:00EC4590
+CS:EIP:001B:6139DBED
+SS:ESP:0023:0012F6E0  EBP:0012F860
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010206
+
+
+Call stack:
+Address   Frame
+6139DBED  0012F860  kputac
+6130162A  0012F87C  xOCISessionEnd
+66E7902C  00EC44AC  ickedssEndSession
+

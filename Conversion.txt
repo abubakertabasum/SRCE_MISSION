@@ -1,0 +1,193 @@
+FUNCTION Conversion (parametre NUMBER) RETURN VARCHAR2 IS
+
+  type tableau is table of  varchar2(800) index by binary_integer;
+  taille_nombre number;
+  c1 number;
+  c2 number;
+  c3 number;
+  nb_zero number;
+  nb_group number;
+  resul_g varchar2(800);
+  resultat varchar2(800);
+  nombre_conv1 varchar2(15);
+  nombre_conv2 varchar2(15);
+  reste_group number;
+  group3  varchar2(3);
+  table_resultat tableau;
+  i number;
+  p1 boolean;
+  p2 boolean;
+  p3 boolean;
+  r1 varchar2(800);
+  r2 varchar2(30);
+  --v_tableau varchar2(30);
+  
+  
+BEGIN
+ i:=1;
+ nombre_conv1:=to_char(parametre);
+ taille_nombre:=length(nombre_conv1);
+ nb_group:=trunc(taille_nombre/3);
+ reste_group:=mod(taille_nombre,3);
+ nombre_conv2:=nombre_conv1;
+
+-------------------Traitement des groupes de 3 chiffres------------------------------------------
+ if nb_group > 0 then
+   FOR cpt in reverse 1..nb_group  LOOP
+     nb_zero:=0;
+     p1:=false;
+     p2:=false;
+     p3:=false;
+     r1:='';
+     resul_g:='';
+     group3:=substr(nombre_conv2,length(nombre_conv2)-2,3);
+     nombre_conv2:=substr(nombre_conv2,1,length(nombre_conv2)-3);
+     c1:=substr(group3,1,1);
+     c2:=substr(group3,2,1);
+     c3:=substr(group3,3,1);
+     if to_number(c1)=0 then
+       nb_zero:=nb_zero+1;
+       p1:=true;
+     end if;
+     if to_number(c2)=0 then
+       nb_zero:=nb_zero+1;
+       p2:=true;
+     end if;
+     if to_number(c3)=0 then
+       nb_zero:=nb_zero+1;
+       p3:=true;
+     end if;
+
+    ----------------------cas pas de zéro --------------------
+     if nb_zero=0 then
+       if to_number(c1)>1 then
+         select lettre into r1 from gm_nombre where nombre=to_number(c1);
+       end if;
+       resul_g:=r1||' Cent ';
+       select lettre into r1 from gm_nombre where nombre=to_number(c2||c3);
+       resul_g:=resul_g||r1;
+ 
+    ----------------------cas de 1 zéro --------------------
+     elsif nb_zero=1  then
+       if p1=true then
+          select lettre into resul_g from gm_nombre where nombre=to_number(c2||c3);
+       else 
+          if to_number(c1) > 1 then
+             select lettre into resul_g from gm_nombre where nombre=to_number(c1);
+          end if;
+          resul_g:=resul_g||' Cent ';
+          if p2=true then
+             select lettre into r1 from gm_nombre where nombre=to_number(c3);
+             resul_g:=resul_g||r1;
+          else
+             select lettre into r1 from gm_nombre where nombre=to_number(c2||'0');
+             resul_g:=resul_g||r1;
+          end if;  
+       end if;  
+    ----------------------cas de deux zéros --------------------
+     elsif nb_zero=2 then
+       if p1=true and p2=true then
+         select lettre into resul_g from gm_nombre where nombre=to_number(c3);
+       elsif p1=true and p3=true then
+          select lettre into resul_g from gm_nombre where nombre=to_number(c2||'0');
+       else
+          select lettre into resul_g from gm_nombre where nombre=to_number(c1);
+          resul_g:=resul_g||' Cents ';
+       end if; 
+     end if;
+     table_resultat(i):=resul_g;
+     i:=i+1;
+   END LOOP;
+ end if;  
+------------------------traitement de la partie modulo--------------------------------
+ if reste_group <> 0 then
+   select lettre into r1 from gm_nombre where nombre=to_number(nombre_conv2);
+ end if;
+ if nb_group > 0 then
+
+-------- cas d'un nombre de 3 à 5 chiffres-------------------------------------------
+   if nb_group=1 then
+     
+     if reste_group=0 then  ------------ 3 chiffres
+       resul_g:=table_resultat(1);
+     else ------------------------------4 à 5 chiffres                
+       if to_number(nombre_conv2)=1 then
+         r2:='1';
+       end if;
+       if to_number(substr(nombre_conv1,length(nombre_conv1)-2,3))<>0 then
+          if r2='1' then
+             resul_g:='Mille '||table_resultat(1);
+          else
+             resul_g:=r1||' Mille '||table_resultat(1);
+          end if;
+       else
+          if r2='1' then 
+            resul_g:=' Mille ';
+          else
+            resul_g:=r1||' Milles ';
+          end if; 
+       end if;
+     end if;
+
+-------- cas d'un nombre de 6 à 8 chiffres-------------------------------------------
+   elsif nb_group=2 then
+
+     if reste_group=0 then  ----------- 6 chiffres
+       if to_number(substr(nombre_conv1,length(nombre_conv1)-2,3)) <> 0 then
+         resul_g:=table_resultat(2)||' Mille '||table_resultat(1);
+       else 
+         resul_g:=table_resultat(2)||' Milles ';
+       end if;
+     else ----------------------------- 7 à 8 chiffres
+       if to_number(substr(nombre_conv1,length(nombre_conv1)-2,3)) = 0 then 
+         if to_number(substr(nombre_conv1,length(nombre_conv1)-5,3)) = 0 then 
+           resul_g:=r1||' Million';   
+           if to_number(nombre_conv2)> 1 then 
+             resul_g:=resul_g||'s'; 
+           end if;
+         else 
+           if to_number(substr(nombre_conv1,length(nombre_conv1)-5,3)) = 1 then
+              resul_g:=r1||' Million Mille';
+           else
+              resul_g:=r1||' Million '||table_resultat(2)||' Milles';
+           end if;
+         end if;
+       else
+         if to_number(substr(nombre_conv1,length(nombre_conv1)-5,3)) = 1 then
+           resul_g:=r1||' Million Mille '||table_resultat(1);
+         else
+           resul_g:=r1||' Million '||table_resultat(2)||' Mille '||table_resultat(1);
+         end if; 
+       end if;
+     end if;
+
+-------- cas d'un nombre de 9 à 11 chiffres-------------------------------------------
+   elsif nb_group=3 then
+
+     if reste_group=0 then  --------------------9 chiffres
+       if to_number(substr(nombre_conv1,length(nombre_conv1)-2,3)) = 0 then 
+         if to_number(substr(nombre_conv1,length(nombre_conv1)-5,3)) = 0 then 
+           resul_g:=table_resultat(3)||' Millions';
+         else  
+           if to_number(substr(nombre_conv1,length(nombre_conv1)-5,3)) = 1 then
+              resul_g:=table_resultat(3)||' Million Mille';
+           else
+              resul_g:=table_resultat(3)||' Million '||table_resultat(2)||' Milles';
+           end if;
+         end if;
+       else
+         if to_number(substr(nombre_conv1,length(nombre_conv1)-5,3)) = 1 then
+           resul_g:=table_resultat(3)||' Million Milles'||table_resultat(1);
+         else
+           resul_g:=table_resultat(3)||' Million '||table_resultat(2)||' Mille '||table_resultat(1);
+         end if; 
+       end if; 
+     end if;
+   end if;
+ 
+ else
+  return(r1);
+ end if;
+ return(resul_g);
+  
+END;

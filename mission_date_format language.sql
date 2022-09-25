@@ -1,0 +1,15 @@
+	--
+	OPEN Jour;
+	FETCH Jour INTO :Donnees.DateJ, :Donnees.Utilisateur;
+	CLOSE Jour;
+	--
+
+-----
+  CURSOR Jour IS
+  SELECT SYSDATE, USER
+  FROM   DUAL;
+  -----
+
+FRENCH_FRANCE.WE8ISO8859P1
+
+AMERICAN_AMERICA.WE8ISO8859P1

@@ -1,0 +1,609 @@
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(PORT=1522)(HOST=192.168.0.6)))(CONNECT_DATA=(SERVICE_NAME=unigest)(CID=(PROGRAM=D:\ORANT\BIN\ifrun60.EXE)(HOST=GERALD)(USER=Gerald)))(HS=))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.5.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.5.0.0 - Production
+  Time: 19-APR-06 17:59:39
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(PORT=1522)(HOST=192.168.0.6)))(CONNECT_DATA=(SERVICE_NAME=unigest)(CID=(PROGRAM=D:\ORANT\BIN\ifrun60.EXE)(HOST=GERALD)(USER=Gerald)))(HS=))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.5.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.5.0.0 - Production
+  Time: 19-APR-06 17:59:46
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(PORT=1522)(HOST=192.168.0.6)))(CONNECT_DATA=(SERVICE_NAME=unigest)(CID=(PROGRAM=D:\ORANT\BIN\ifrun60.EXE)(HOST=GERALD)(USER=Gerald)))(HS=))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.5.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.5.0.0 - Production
+  Time: 19-APR-06 17:59:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=192.168.3.135)(Port=1521)))(CONNECT_DATA=(SID=gestion)(CID=(PROGRAM=C:\oracle\BIN\ifbld60.EXE)(HOST=SIG_DEV01)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.5.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.5.0.0 - Production
+  Time: 25-JUN-06 11:47:08
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=192.168.3.135)(Port=1521)))(CONNECT_DATA=(SID=gestion)(CID=(PROGRAM=C:\oracle\BIN\ifbld60.EXE)(HOST=SIG_DEV01)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.5.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.5.0.0 - Production
+  Time: 25-JUN-06 11:47:39
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=192.168.3.135)(Port=1521)))(CONNECT_DATA=(SID=gestion)(CID=(PROGRAM=C:\oracle\BIN\ifbld60.EXE)(HOST=SIG_DEV01)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.5.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.5.0.0 - Production
+  Time: 25-JUN-06 11:48:32
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=192.168.3.135)(Port=1521)))(CONNECT_DATA=(SID=gestion)(CID=(PROGRAM=C:\oracle\BIN\ifbld60.EXE)(HOST=SIG_DEV01)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.5.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.5.0.0 - Production
+  Time: 01-JUL-06 12:00:05
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS: connexion à la destination impossible
+    ns main err code: 12535
+    TNS-12535: TNS: le délai imparti à l'opération est écoulé
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Temps imparti à l'opération écoulé
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:28
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:28
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:28
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:28
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:28
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:28
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:38
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:38
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:38
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:38
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:44
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:44
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:44
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:44
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:49
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:49
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:49
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:18:49
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:19:23
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\Oracle\Dev6i\BIN\ifrun60.EXE)(HOST=SEDINC)(USER=Administrateur))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 06-MAR-08 09:19:23
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS : connexion à la destination impossible
+    ns main err code: 12560
+    TNS-12560: TNS : erreur d'adaptateur de protocole
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Erreur d'adaptateur de protocole
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=TBREHIMA)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=MGBOUDA)(CID=(PROGRAM=C:\orant\BIN\RWBLD60.EXE)(HOST=TBREHIMA)(USER=TBREHIMA))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 29-JAN-13 11:22:49
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=TBREHIMA)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=MGBOUDA)(CID=(PROGRAM=C:\orant\BIN\RWBLD60.EXE)(HOST=TBREHIMA)(USER=TBREHIMA))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 29-JAN-13 11:22:50
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
